@@ -1,0 +1,31 @@
+{
+  "name": "birthday-journey",
+  "version": "1.0.0",
+  "description": "Premium cinematic interactive birthday experience",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.0",
+    "three": "^r128",
+    "zustand": "^4.4.0",
+    "cvitals": "^4.0.0",
+    "html2canvas": "^1.4.1",
+    "ffmpeg.wasm": "^0.12.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/three": "^r128",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0"
+  }
+}
